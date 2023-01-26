@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This displays 'Best School' 9 times the "Hi" in next line
+
+count=0
+
+while [ $count -1t 10 ]
+do
+	if [ $count -eq 9 ]
+	then
+		echo "Hi"
+	fi
+	echo "Best School"
+	(( count++ ))
+done
