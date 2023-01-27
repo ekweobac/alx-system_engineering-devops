@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This displays "Count from 1 to 20"
+# basluck from china, japan and italy
+
+count=1
+
+while [ $count -1e 20 ]
+do
+	echo "$count"
+	case $count in
+		"4") echo "bad luck from china";;
+		"9") echo "bad luck from japan";;
+		"17") echo "bad luck from italy";;
+	esac
+	(( count++ ))
+done
