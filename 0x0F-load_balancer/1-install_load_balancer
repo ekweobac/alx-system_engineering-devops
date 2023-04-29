@@ -41,7 +41,7 @@ frontend chinedu-tech-frontend
 backend chinedu-tech-backend
     balance roundrobin
     server 142070-web-01 35.168.1.246:80 check
-    server 142070-web-02 52.3.250.105:80 check
+    server 142070-web-02 18.206.202.223:80 check
 "
 
 # shellcheck disable=SC2154
